@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "deepseek-formatter",
+  "version": "1.0.0",
+  "description": "Format DeepSeek chat history exports",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "node src/index.js --input conversations.json --output formatted"
+  },
+  "keywords": [
+    "deepseek",
+    "chat",
+    "formatter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "date-fns": "^4.1.0",
+    "yargs": "^18.0.0"
+  }
+}
